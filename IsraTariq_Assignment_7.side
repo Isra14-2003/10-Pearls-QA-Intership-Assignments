@@ -1,0 +1,119 @@
+{
+  "id": "c7cd3089-ddff-45fe-af03-6770b5cb77a1",
+  "version": "2.0",
+  "name": "DARAZ",
+  "url": "https://www.daraz.pk/#?",
+  "tests": [{
+    "id": "b8145148-3bcf-4bb6-aded-1a8cc5d0cae8",
+    "name": "DARAZ.",
+    "commands": [{
+      "id": "5ef36cba-4aed-4cb0-9606-108f5aae4eac",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.pk/#?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f389bf36-2c1b-4553-a1af-8d358d2bd8bc",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"q\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "def24ca1-0447-4530-b36a-21665f99f457",
+      "comment": "",
+      "command": "type",
+      "target": "//*[@id=\"q\"]",
+      "targets": [],
+      "value": "electronics"
+    }, {
+      "id": "4d9bd805-4d7b-47e6-b5a9-104dcc688a97",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEARCH",
+      "targets": [
+        ["linkText=SEARCH", "linkText"],
+        ["css=.search-box__button--1oH7", "css:finder"],
+        ["xpath=//a[contains(text(),'SEARCH')]", "xpath:link"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/div/form/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.pk/catalog/?spm=a2a0e.tm80335142.search.d_go.62aa4076FtFHZu&q=electronics')]", "xpath:href"],
+        ["xpath=//form/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SEARCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e9f7210-e621-41f4-8a31-3ee19ec96e42",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Arts & Crafts - Sketching",
+      "targets": [
+        ["linkText=Arts & Crafts - Sketching", "linkText"],
+        ["css=.DMfHy:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Arts & Crafts - Sketching')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/drawing-sketching-tablets//?spm=a2a0e.searchlist.funnel_filter.d6.5d40771b2nSX8x&q=electronics')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Arts & Crafts - Sketching')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb5d18fc-8e75-42e2-b698-95661925934a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.q9tZB:nth-child(1)",
+      "targets": [
+        ["css=.q9tZB:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d17c325d-c6fc-4135-b6ee-44fd3624fa51",
+      "comment": "",
+      "command": "type",
+      "target": "css=.q9tZB:nth-child(1)",
+      "targets": [],
+      "value": "50"
+    }, {
+      "id": "a87fed90-d2da-490c-a496-f06175d1fb13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.q9tZB:nth-child(3)",
+      "targets": [
+        ["css=.q9tZB:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[4]/div[2]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1156a11-b267-4662-a1cb-abfd8d3db4d5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.q9tZB:nth-child(3)",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "57f119d1-d24c-41ab-819f-e90b47af9443",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-icon > svg",
+      "targets": [
+        ["css=.ant-btn-icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6a0db24c-0ee7-4428-acec-0417129885dc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b8145148-3bcf-4bb6-aded-1a8cc5d0cae8"]
+  }],
+  "urls": ["https://www.daraz.pk/#?"],
+  "plugins": []
+}
